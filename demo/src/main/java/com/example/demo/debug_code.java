@@ -20,7 +20,7 @@ public class debug_code {
         WebDriver chr=new ChromeDriver();
         //Maximize the browser
         chr.manage().window().maximize();
-        // Launch/open Website
+        // open Website
         chr.navigate().to("https://www.youtube.com/");
         //add test by using xpath
        chr.findElement(By.xpath("//input[@id='search']")).sendKeys("java tutorial");
